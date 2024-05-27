@@ -1,0 +1,12 @@
+
+Tested with avr-gcc 4.6.1. Prior versions will not work with the fuse
+configuration in 'fuses.c'; removing 'fuses.c' from the Makefile and
+manually constructing the fuse words may help.
+
+Tested with avrdude 5.5.
+
+Full build:
+	$ make
+	$ make test
+	$ make burn
+

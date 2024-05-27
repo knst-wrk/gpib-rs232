@@ -1,0 +1,12 @@
+
+
+2013-05-20 Sven Pauli <sven_pauli@gmx.de>
+	* Corrected order of arguments in OUTPUT command
+	* RTS is an input now
+	* Properly clearing interrupt flags in the INT0 and INT1 ISRs
+		(no more read-modify-write)
+	* RS232 asserts inactive state when detecting baud rate
+
+
+2012-01-01 Sven Pauli <sven_pauli@gmx.de>
+	* Initial release
